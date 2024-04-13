@@ -33,7 +33,7 @@
     }
   },
   "require-dev": {
-    "laravel/framework": "^9.0"
+    "laravel/framework": "^10.48"
   },
   "scripts": {
     "post-update-cmd": [
