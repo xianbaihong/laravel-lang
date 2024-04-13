@@ -1,22 +1,22 @@
 <h1 align="center">Laravel-lang</h1>
 <p align="center">基于 <a href="https://github.com/Laravel-Lang/lang">Laravel-Lang/lang</a> 的Laravel应用程序支持75种语言。
-<p align="center"><a href="https://github.com/overtrue/laravel-lang"><img alt="For Laravel 5" src="https://img.shields.io/badge/laravel-ready-green.svg" style="max-width:100%;"></a>
-<a href="https://github.com/overtrue/laravel-lang"><img alt="For Lumen 5" src="https://img.shields.io/badge/lumen-ready-green.svg" style="max-width:100%;"></a>
-<a href="https://packagist.org/packages/overtrue/laravel-lang"><img alt="Latest Stable Version" src="https://img.shields.io/packagist/v/overtrue/laravel-lang.svg" style="max-width:100%;"></a>
-<a href="https://packagist.org/packages/overtrue/laravel-lang"><img alt="Latest Unstable Version" src="https://img.shields.io/packagist/vpre/overtrue/laravel-lang.svg" style="max-width:100%;"></a>
-<a href="https://packagist.org/packages/overtrue/laravel-lang"><img alt="Total Downloads" src="https://img.shields.io/packagist/dt/overtrue/laravel-lang.svg?maxAge=2592000" style="max-width:100%;"></a>
-<a href="https://packagist.org/packages/overtrue/laravel-lang"><img alt="License" src="https://img.shields.io/packagist/l/overtrue/laravel-lang.svg?maxAge=2592000" style="max-width:100%;"></a></p>
+<p align="center"><a href="https://github.com/xianbaihong/laravel-lang"><img alt="For Laravel 5" src="https://img.shields.io/badge/laravel-ready-green.svg" style="max-width:100%;"></a>
+<a href="https://github.com/xianbaihong/laravel-lang"><img alt="For Lumen 5" src="https://img.shields.io/badge/lumen-ready-green.svg" style="max-width:100%;"></a>
+<a href="https://packagist.org/packages/xianbaihong/laravel-lang"><img alt="Latest Stable Version" src="https://img.shields.io/packagist/v/xianbaihong/laravel-lang.svg" style="max-width:100%;"></a>
+<a href="https://packagist.org/packages/xianbaihong/laravel-lang"><img alt="Latest Unstable Version" src="https://img.shields.io/packagist/vpre/xianbaihong/laravel-lang.svg" style="max-width:100%;"></a>
+<a href="https://packagist.org/packages/xianbaihong/laravel-lang"><img alt="Total Downloads" src="https://img.shields.io/packagist/dt/xianbaihong/laravel-lang.svg?maxAge=2592000" style="max-width:100%;"></a>
+<a href="https://packagist.org/packages/xianbaihong/laravel-lang"><img alt="License" src="https://img.shields.io/packagist/l/xianbaihong/laravel-lang.svg?maxAge=2592000" style="max-width:100%;"></a></p>
 
 # Install
 
 | Laravel version | Composer command                              |
 | --------------- | --------------------------------------------- |
-| Laravel 9.x     | `composer require overtrue/laravel-lang:~6.0` |
-| Laravel 7.x-8.x | `composer require overtrue/laravel-lang:~5.0` |
-| Laravel 6.x     | `composer require overtrue/laravel-lang:~4.0` |
-| Laravel 5.8     | `composer require overtrue/laravel-lang:~3.0` |
-| Laravel 5.1-5.7 | `composer require overtrue/laravel-lang:~2.0` |
-| Laravel 5       | `composer require overtrue/laravel-lang:~1.0` |
+| Laravel 9.x     | `composer require xianbaihong/laravel-lang:~6.0` |
+| Laravel 7.x-8.x | `composer require xianbaihong/laravel-lang:~5.0` |
+| Laravel 6.x     | `composer require xianbaihong/laravel-lang:~4.0` |
+| Laravel 5.8     | `composer require xianbaihong/laravel-lang:~3.0` |
+| Laravel 5.1-5.7 | `composer require xianbaihong/laravel-lang:~2.0` |
+| Laravel 5       | `composer require xianbaihong/laravel-lang:~1.0` |
 
 ```shell
 composer require "xianbaihong/laravel-lang:~6.0"
@@ -27,7 +27,7 @@ composer require "xianbaihong/laravel-lang:~6.0"
 Add the following line to `bootstrap/app.php`:
 
 ```php
-$app->register(Overtrue\LaravelLang\TranslationServiceProvider::class);
+$app->register(Xianbaihong\LaravelLang\TranslationServiceProvider::class);
 ```
 
 # Configuration

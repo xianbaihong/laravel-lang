@@ -1,12 +1,12 @@
 {
-  "name": "overtrue/laravel-lang",
+  "name": "xianbaihong/laravel-lang",
   "description": "List of 75 languages for Laravel.",
   "keywords": [
     "laravel",
     "languages",
     "i18n",
     "locale",
-    "overtrue"
+    "xianbaihong"
   ],
   "require": {
     "laravel-lang/lang": "^15.0",
@@ -15,20 +15,20 @@
   },
   "autoload": {
     "psr-4": {
-      "Overtrue\\LaravelLang\\": "src/"
+      "Xianbaihong\\LaravelLang\\": "src/"
     }
   },
   "license": "MIT",
   "authors": [
     {
-      "name": "overtrue",
-      "email": "anzhengchao@gmail.com"
+      "name": "xianbaihong",
+      "email": "xianbaihong@gmail.com"
     }
   ],
   "extra": {
     "laravel": {
       "providers": [
-        "Overtrue\\LaravelLang\\TranslationServiceProvider"
+        "Xianbaihong\\LaravelLang\\TranslationServiceProvider"
       ]
     }
   },

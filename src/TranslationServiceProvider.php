@@ -1,18 +1,9 @@
 <?php
 
-/*
- * This file is part of the overtrue/laravel-lang.
- *
- * (c) overtrue <i@overtrue.me>
- *
- * This source file is subject to the MIT license that is bundled
- * with this source code in the file LICENSE.
- */
-
-namespace Overtrue\LaravelLang;
+namespace Xianbaihong\LaravelLang;
 
 use Illuminate\Translation\TranslationServiceProvider as LaravelTranslationServiceProvider;
-use Overtrue\LaravelLang\Commands\Publish as PublishCommand;
+use Xianbaihong\LaravelLang\Commands\Publish as PublishCommand;
 
 class TranslationServiceProvider extends LaravelTranslationServiceProvider
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Overtrue\LaravelLang\Commands;
+namespace Xianbaihong\LaravelLang\Commands;
 
 use Illuminate\Console\Command;
 use Symfony\Component\Process\Process;

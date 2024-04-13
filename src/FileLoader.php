@@ -1,6 +1,6 @@
 <?php
 
-namespace Overtrue\LaravelLang;
+namespace Xianbaihong\LaravelLang;
 
 use Illuminate\Support\Str;
 use Illuminate\Filesystem\Filesystem;
