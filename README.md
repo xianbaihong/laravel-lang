@@ -1,21 +1,11 @@
 <h1 align="center">Laravel-lang</h1>
-<p align="center">75 languages support for Laravel application based on <a href="https://github.com/Laravel-Lang/lang">Laravel-Lang/lang</a>.
+<p align="center">基于 <a href="https://github.com/Laravel-Lang/lang">Laravel-Lang/lang</a> 的Laravel应用程序支持75种语言。
 <p align="center"><a href="https://github.com/overtrue/laravel-lang"><img alt="For Laravel 5" src="https://img.shields.io/badge/laravel-ready-green.svg" style="max-width:100%;"></a>
 <a href="https://github.com/overtrue/laravel-lang"><img alt="For Lumen 5" src="https://img.shields.io/badge/lumen-ready-green.svg" style="max-width:100%;"></a>
 <a href="https://packagist.org/packages/overtrue/laravel-lang"><img alt="Latest Stable Version" src="https://img.shields.io/packagist/v/overtrue/laravel-lang.svg" style="max-width:100%;"></a>
 <a href="https://packagist.org/packages/overtrue/laravel-lang"><img alt="Latest Unstable Version" src="https://img.shields.io/packagist/vpre/overtrue/laravel-lang.svg" style="max-width:100%;"></a>
 <a href="https://packagist.org/packages/overtrue/laravel-lang"><img alt="Total Downloads" src="https://img.shields.io/packagist/dt/overtrue/laravel-lang.svg?maxAge=2592000" style="max-width:100%;"></a>
 <a href="https://packagist.org/packages/overtrue/laravel-lang"><img alt="License" src="https://img.shields.io/packagist/l/overtrue/laravel-lang.svg?maxAge=2592000" style="max-width:100%;"></a></p>
-
-> **Warning**
->
-> There is already a better solution to use [our official Laravel-Lang publisher](https://publisher.laravel-lang.com/). This project will be discontinued, thank you for your support.
-
-# Features
-
-- Laravel 5+ && Lumen support.
-- Translations Publisher.
-- Made with 💖.
 
 # Install
 
@@ -29,7 +19,7 @@
 | Laravel 5       | `composer require overtrue/laravel-lang:~1.0` |
 
 ```shell
-composer require "overtrue/laravel-lang:~6.0"
+composer require "xianbaihong/laravel-lang:~6.0"
 ```
 
 #### Lumen
@@ -114,24 +104,6 @@ examples:
 ```shell
 php artisan lang:publish zh_CN,zh_HK,th,tk
 ```
-
-## :heart: Sponsor me
-
-[![Sponsor me](https://github.com/overtrue/overtrue/blob/master/sponsor-me.svg?raw=true)](https://github.com/sponsors/overtrue)
-
-如果你喜欢我的项目并想支持它，[点击这里 :heart:](https://github.com/sponsors/overtrue)
-
-## Project supported by JetBrains
-
-Many thanks to Jetbrains for kindly providing a license for me to work on this and other open-source projects.
-
-[![](https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.svg)](https://www.jetbrains.com/?from=https://github.com/overtrue)
-
-## PHP 扩展包开发
-
-> 想知道如何从零开始构建 PHP 扩展包？
->
-> 请关注我的实战课程，我会在此课程中分享一些扩展开发经验 —— [《PHP 扩展包实战教程 - 从入门到发布》](https://learnku.com/courses/creating-package)
 
 # License
 
